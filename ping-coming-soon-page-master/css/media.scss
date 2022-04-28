@@ -1,0 +1,67 @@
+@media screen and (max-width: 340px) {
+    form {
+        input {
+            width: 15rem;
+            padding-right: 0;
+        }
+
+        button {
+        padding-inline: 4rem;
+        padding-block: .85rem;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 5%;
+    }
+
+    .typo {
+        h2 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+
+
+    form{
+        display: flex;
+        flex-direction: row;
+
+        input {
+            width: 20rem;
+            padding-right: 0;
+            margin-bottom: 0;
+        }
+
+        button {
+            width: 8rem;
+            position: relative;
+            top: 0;
+            margin-left: 1rem;
+            padding-block: .9rem;
+            padding-inline: 0;
+        }
+
+        .error-text {
+            align-items: flex-start;
+            top: 28px;
+            left: -445px;
+        }
+
+    }
+
+    .dashboard-img {
+        width: 50%;
+        height: 100%;
+    }
+
+}
+
